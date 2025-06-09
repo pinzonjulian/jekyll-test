@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+yarn tailwindcss -i ./assets/stylesheets/base.css -o ./assets/stylesheets/application.css $@

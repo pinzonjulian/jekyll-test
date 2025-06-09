@@ -1,0 +1,83 @@
+.rouge-code, pre code {
+  background: light-dark(#e6e7ed, #1a1b26); /* Light | Dark background */
+  color: light-dark(#343b58, #c0caf5);      /* Foreground text */
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 0.95em;
+  line-height: 1.5;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  display: block;
+}
+
+/* Comments */
+.c, .cm, .cp, .c1, .cs {
+  color: light-dark(#6c6e75, #565f89);
+  font-style: italic;
+}
+
+/* Keywords: `def`, `class`, `return`, etc. */
+.k {
+  color: light-dark(#8c4351, #f7768e);
+  font-weight: bold;
+}
+
+/* Numbers and Booleans: `1`, `true`, `false`, etc. */
+.m, .mi, .mf {
+  color: light-dark(#965027, #ff9e64);
+}
+
+/* Strings: `"hello"`, `'world'` */
+.s, .s1, .s2 {
+  color: light-dark(#385f0d, #9ece6a);
+}
+
+/* Function names */
+.nf, .fm {
+  color: light-dark(#2959aa, #7aa2f7);
+}
+
+/* Built-ins, language support functions (e.g., `puts`) */
+.nb {
+  color: light-dark(#006c86, #2ac3de);
+}
+
+/* Class names, variables */
+.nc, .nn, .nv, .vc, .vg, .vi {
+  color: light-dark(#343b58, #c0caf5);
+}
+
+/* Control keywords, storage types (e.g., `return`, `class`) */
+.kc, .kd, .kp, .kr {
+  color: light-dark(#5a3e8e, #bb9af7);
+  font-weight: bold;
+}
+
+/* Function parameters */
+.nv {
+  color: light-dark(#8f5e15, #e0af68);
+}
+
+/* Object keys / Markdown links */
+.na {
+  color: light-dark(#33635c, #73daca);
+}
+
+/* Operators: `+`, `=`, `=>`, etc. */
+.o {
+  color: light-dark(#8c4351, #f7768e);
+}
+
+/* HTML attributes, regex symbols, other magenta-toned symbols */
+.nt, .err {
+  color: light-dark(#5a3e8e, #bb9af7);
+}
+
+/* Markdown headings, code, import/export */
+.hl, .gu, .gd {
+  background-color: light-dark(#dcdfe4, #292e42); /* highlight line */
+}
+
+.p {
+  color: light-dark(#343b58, #c0caf5); /* punctuation fallback */
+}
