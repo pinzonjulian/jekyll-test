@@ -1,0 +1,2 @@
+web: bundle exec jekyll server --future --strict_front_matter --livereload
+css: yarn tailwindcss -i ./assets/stylesheets/base.css -o ./assets/stylesheets/application.css --watch

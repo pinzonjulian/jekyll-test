@@ -4,3 +4,11 @@
 
 layout: home
 ---
+# hola
+kease
+
+```ruby
+def method
+  puts "hello"
+end
+```
