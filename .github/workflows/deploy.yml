@@ -26,10 +26,7 @@ jobs:
       - name: Yarn Install
         run: yarn install
 
-      - name: Compile Tailwind CSS
-        run: ./bin/tailwind
-
-      - name: Compile Sitepress site
+      - name: Build assets and site
         run: ./bin/build
 
       - name: Upload Pages artifact
