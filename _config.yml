@@ -44,6 +44,7 @@ plugins:
 #
 exclude:
   - bin
+  - assets/stylesheets/tailwind/*
   - mise.toml
   - package.json
   - Procfile.dev
